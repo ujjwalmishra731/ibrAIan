@@ -1,33 +1,28 @@
 # 📚 LibrAIan
 
-**LibrAIan** is your smart, AI-powered library assistant designed to help readers discover books by genre, mood, or author.  
-Hosted Live 👉 [LibrAIan Web App](http://ujjwalmishra731.github.io/LibrAIan/)
+**LibrAIan** is your AI-powered library assistant designed to help users discover books based on genres, moods, and authors. With a sleek, modern interface and Watson Assistant integration, LibrAIan makes book discovery interactive and intelligent.
+
+🌐 **Live Site**: [ujjwalmishra731.github.io/LibrAIan](http://ujjwalmishra731.github.io/LibrAIan/)
 
 ---
 
 ## 🚀 Features
 
-- 🔍 **Search bar** for books or authors
-- 🎭 **Genre-based discovery** (Mystery, Romance, Sci-Fi, Non-fiction)
-- 💬 **IBM Watson Chat Assistant** embedded for real-time conversation
-- 🌐 **Responsive design** using Tailwind CSS
-- ⚡ Fast, minimalist, and mobile-friendly
+- 🔍 Search bar for books or authors
+- 🎯 Genre-based discovery (e.g., Mystery, Romance, Sci-Fi, Non-fiction)
+- 🤖 IBM Watson Chat Assistant for interactive book recommendations
+- 🌈 Responsive design built with Tailwind CSS
+- ⚡ Fast, lightweight, and user-friendly interface
 
 ---
 
-## 🧠 Tech Stack
+## 🧠 Technologies Used
 
-- **HTML5** + **Tailwind CSS** for frontend
-- **IBM Watson Assistant** for AI chatbot integration
-- Hosted via **GitHub Pages**
-
----
-
-## 🛠 How to Use
-
-1. Visit the live site: [LibrAIan Web App](http://ujjwalmishra731.github.io/LibrAIan/)
-2. Use the search bar to look up books or authors
-3. Explore genres or start chatting with the AI bot for recommendations
+- **HTML5**
+- **Tailwind CSS**
+- **JavaScript (for Watson integration)**
+- **IBM Watson Assistant**
+- **GitHub Pages** for deployment
 
 ---
 
