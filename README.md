@@ -31,22 +31,3 @@ Hosted Live 👉 [LibrAIan Web App](http://ujjwalmishra731.github.io/LibrAIan/)
 
 ---
 
-## 💬 Chat Assistant Setup
-
-This project integrates IBM Watson Assistant:
-
-```js
-<script>
-  window.watsonAssistantChatOptions = {
-    integrationID: "03423215-ca71-4ed0-80d8-aab48d199366",
-    region: "eu-de",
-    serviceInstanceID: "d6292216-9b26-4f79-825d-3bc1671f8c82",
-    onLoad: async (instance) => { await instance.render(); }
-  };
-  setTimeout(function(){
-    const t = document.createElement('script');
-    t.src = "https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + 
-             (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
-    document.head.appendChild(t);
-  });
-</script>
