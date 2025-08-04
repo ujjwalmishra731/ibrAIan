@@ -1,53 +1,53 @@
-# 🌐 ujjwalmishra731.github.io
+# 📚 LibrAIan
 
-Welcome to my personal **GitHub Pages** site!  
-This is the portfolio and project showcase for **Ujjwal Mishra**, featuring web projects, AI integrations, and creative experiments.
-
-🔗 **Live Site**: [ujjwalmishra731.github.io](https://ujjwalmishra731.github.io)
+**LibrAIan** is your smart, AI-powered library assistant designed to help readers discover books by genre, mood, or author.  
+Hosted Live 👉 [LibrAIan Web App](http://ujjwalmishra731.github.io/LibrAIan/)
 
 ---
 
-## ✨ What's Included
+## 🚀 Features
 
-This profile site may include:
-
-- 📘 Featured Projects (like [LibrAIan](https://github.com/ujjwalmishra731/LibrAIan))
-- 🧠 AI and chatbot demos (e.g., IBM Watson Assistant)
-- 🛠️ Code snippets and tools
-- 📄 Project documentation and walkthroughs
-- 📬 Contact links and GitHub highlights
+- 🔍 **Search bar** for books or authors
+- 🎭 **Genre-based discovery** (Mystery, Romance, Sci-Fi, Non-fiction)
+- 💬 **IBM Watson Chat Assistant** embedded for real-time conversation
+- 🌐 **Responsive design** using Tailwind CSS
+- ⚡ Fast, minimalist, and mobile-friendly
 
 ---
 
-## 🧱 Tech Stack
+## 🧠 Tech Stack
 
-- **HTML5 + CSS3**
-- **Tailwind CSS** (for rapid styling)
-- **JavaScript**
-- **GitHub Pages** (for static hosting)
-
----
-
-## 🧩 Projects You Might Like
-
-| Project | Description | Link |
-|--------|-------------|------|
-| 📚 **LibrAIan** | AI-powered library assistant | [View Project](https://github.com/ujjwalmishra731/LibrAIan) |
-| 💬 **Chatbot Demos** | IBM Watson chatbot integrations | Coming Soon |
-| 🎨 **Portfolio Design** | Responsive and clean personal site | This site |
+- **HTML5** + **Tailwind CSS** for frontend
+- **IBM Watson Assistant** for AI chatbot integration
+- Hosted via **GitHub Pages**
 
 ---
 
-## 🚀 How It's Deployed
+## 🛠 How to Use
 
-1. The repo name is **ujjwalmishra731.github.io** (must match your GitHub username)
-2. All site files (like `index.html`, images, CSS) are in the root
-3. GitHub Pages is enabled under:
-   - `Settings > Pages > Branch: main / (root)`
+1. Visit the live site: [LibrAIan Web App](http://ujjwalmishra731.github.io/LibrAIan/)
+2. Use the search bar to look up books or authors
+3. Explore genres or start chatting with the AI bot for recommendations
 
 ---
 
-## 📁 Folder Structure
+## 💬 Chat Assistant Setup
 
+This project integrates IBM Watson Assistant:
 
+```js
+<script>
+  window.watsonAssistantChatOptions = {
+    integrationID: "03423215-ca71-4ed0-80d8-aab48d199366",
+    region: "eu-de",
+    serviceInstanceID: "d6292216-9b26-4f79-825d-3bc1671f8c82",
+    onLoad: async (instance) => { await instance.render(); }
+  };
+  setTimeout(function(){
+    const t = document.createElement('script');
+    t.src = "https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + 
+             (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+    document.head.appendChild(t);
+  });
+</script>
 
